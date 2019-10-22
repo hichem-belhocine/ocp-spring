@@ -17,7 +17,7 @@ public class SpringProjectApplication {
 
 	@GetMapping("/{input}")
 	public String WelcomeToSparICS(@PathVariable String input){
-		return "Welcome" + input+ "to Spar-ICS";
+		return "Welcome to Spar-ICS " + input;
 	}
 
 	public static void main(String[] args) {
